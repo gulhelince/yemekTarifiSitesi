@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="yemekSitesi_1.Admin" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style8 {
+            float: left;
+            height: auto;
+            width: 196px;
+            
+        }
+        .auto-style9 {
+            width: 100%;
+        }
+        .auto-style10 {
+            margin-left: 40px;
+        }
+        .auto-style11 {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 150px; width: 700px; margin-left:300px; background-color: #CCCCFF;">
+            
+            <asp:Image ID="Image1" runat="server" Height="146px" ImageUrl="~/Resimler/blog.jpg" Width="697px" />
+&nbsp;</div>
+
+        <div style="height: 20px; width: 700px; margin-left:300px;"> </div>
+       
+        <div style="height: auto; width: 700px; margin-left:300px;"> 
+
+             <div style="background-color: #66FFFF; margin-left:0px; " class="auto-style8"> 
+                 <table class="auto-style9">
+                     <tr>
+                         <td class="auto-style11"><strong>MENÜLER</strong></td>
+                     </tr>
+                     <tr>
+                         <td>&nbsp;</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx" >KATEGORİLER </a></td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">YEMEKLER </td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">YORUMLAR</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">MESAJLAR</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">GÜNÜN YEMEĞİ</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">ÖNERİLER</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">HAKKIMIZDA </td>
+                     </tr>
+                 </table>
+                 <p class="auto-style10">
+                     <br />
+                 </p>
+             </div>
+             <div style="float:left; height: auto; width: 450px;  background-color: #66FFFF; margin-left:50px;">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 </asp:ContentPlaceHolder>
+             </div>
+             
+        &nbsp;</div>
+
+    </form>
+</body>
+</html>
+<!--ContentPlaceHolder =
+    DataList=veri çekme işlemi için kullanılır
+    Veri tabanından çekilecek alan -Eval komutuyla çekilir
+    -->
+
+
+

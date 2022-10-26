@@ -1,0 +1,11 @@
+﻿a:link{
+    text-decoration:none; /*Yazının altındaki çizgiyi kaldırmaya yarar*/
+    font-size:14px;
+    font-family:Georgia;
+    font-style:normal;
+}
+
+a:hover{
+    font-size:18px;
+    color:black;
+}
